@@ -46,7 +46,7 @@ namespace StackExchange.Utils.Extensions.NewtonJson
         /// </summary>
         /// <typeparam name="T">The type to deserialize to.</typeparam>
         /// <param name="builder">The builder we're working on.</param>
-        /// <param name="serializerSettings">The Jil options to use when serializing.</param>
+        /// <param name="serializerSettings">The System.Text.Json options to use when serializing.</param>
         /// <returns>A typed request builder for chaining.</returns>
         public static IRequestBuilder<T> ExpectSystemTextJson<T>(this IRequestBuilder builder, JsonSerializerOptions serializerSettings = null) =>
             builder.WithHandler(JsonHandler<T>.WithOptions(builder, serializerSettings));
