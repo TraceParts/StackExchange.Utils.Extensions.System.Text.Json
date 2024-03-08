@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1</Version>
+    <Authors>TraceParts Team</Authors>
+    <Company>TraceParts</Company>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <PackageLicenseUrl>https://github.com/TraceParts/StackExchange.Utils.Http.Extensions.System.Text.Json/blob/main/LICENSE</PackageLicenseUrl>
+    <Description>StackExchange.Utils.Http.Extensions.System.Text.Json is a library that extends StackExchange.Utils.Http allowing you to use System.Text.Json Json deserializer instead of JIL</Description>
+    <PackageProjectUrl>https://github.com/TraceParts/StackExchange.Utils.Http.Extensions.System.Text.Json</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TraceParts/StackExchange.Utils.Http.Extensions.System.Text.Json.git</RepositoryUrl>
+    <PackageTags>http;System.Text.Json</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <RootNamespace>StackExchange.Utils.Extensions.System.Text.Json</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StackExchange.Utils.Http" Version="0.3.48" />
+  </ItemGroup>
+
+</Project>
